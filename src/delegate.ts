@@ -1,6 +1,13 @@
 import { method } from '@arrows/multimethod'
+import { Reducer, Guard } from './common-types'
 
-const delegate = (actionType, transformation, guardFn?) => {
+type Delegate = (
+  actionType: string,
+  transformation: Reducer,
+  guardFn?: Guard,
+) => Reducer
+
+const delegate: Delegate = (actionType, transformation, guardFn) => {
   return guardFn
     ? method(
         (state, action) => action.type === actionType && guardFn(state, action),
