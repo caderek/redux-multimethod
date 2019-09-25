@@ -1,6 +1,6 @@
 {
   "name": "redux-multimethod",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "license": "ISC",
   "repository": "https://github.com/caderek/redux-multimethod",

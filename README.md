@@ -43,6 +43,8 @@ const app = reducer(
     updateEntry,  // transformation (required)
     (state, action) => state[action.index].text !== action.text // guard function (optional)
   )
+  // ...other - you can add arbitrary number of delegates in format:
+  // delegate(actionType, transformation, guard?)
 )
 
 export { app } // uninitialized reducer for testing
