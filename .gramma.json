@@ -1,7 +1,9 @@
 {
   "api_url": "inherit",
   "api_key": "",
-  "dictionary": [],
+  "dictionary": [
+    "README"
+  ],
   "language": "en-US",
   "rules": {
     "casing": true,
