@@ -1,20 +1,21 @@
+import { method, multi } from '@arrows/multimethod'
 import { Method, Multimethod } from '@arrows/multimethod/internal/types'
-import { multi, method } from '@arrows/multimethod'
-import { Action } from './common-types'
+import { IAction } from './common-types'
 
 type CreateReducer = (
   ...delegates: Method[]
 ) => (
   initialState: {} | null,
-) => (state: {} | null, action: Action) => Multimethod
+) => (state: {} | null, action: IAction) => Multimethod
 
 const reducer: CreateReducer = (...delegates) => (initialState) => (
   state = initialState,
   action,
 ) => {
   return multi(
-    (_, action) => action.type,
-    method((state) => state),
+    // @ts-lint ignore
+    (_, { type }) => type,
+    method((x) => x),
     ...delegates,
   )(state, action)
 }

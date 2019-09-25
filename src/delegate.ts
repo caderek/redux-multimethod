@@ -1,5 +1,5 @@
 import { method } from '@arrows/multimethod'
-import { Reducer, Guard } from './common-types'
+import { Guard, Reducer } from './common-types'
 
 type Delegate = (
   actionType: string,

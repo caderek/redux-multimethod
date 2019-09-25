@@ -1,5 +1,5 @@
-import reducer from './reducer'
 import delegate from './delegate'
+import reducer from './reducer'
 
 describe('reducer', () => {
   describe('when partially applied', () => {

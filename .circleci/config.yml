@@ -31,3 +31,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn coverage
+      - run: yarn lint
