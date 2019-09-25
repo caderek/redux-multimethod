@@ -8,7 +8,7 @@
 
 ## Overview
 
-Redux-multimethod is a tiny wrapper for `@array/multimethod` package, that allows you to reduce boilerplate code in your Redux-like reducers.
+Redux-multimethod is a tiny wrapper for `@arrows/multimethod` package, that allows you to reduce boilerplate code in your Redux-like reducers.
 
 ## Quick example
 
