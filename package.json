@@ -3,6 +3,19 @@
   "version": "0.1.0",
   "main": "lib/index.js",
   "license": "ISC",
+  "repository": "https://github.com/caderek/redux-multimethod",
+  "homepage": "https://github.com/caderek/redux-multimethod",
+  "description": "Redux reducers powered by multimethods",
+  "keywords": [
+    "redux",
+    "reducer",
+    "reducers",
+    "multimethod",
+    "multimethods",
+    "functional",
+    "fp"
+  ],
+  "author": "Maciej Cąderek",
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -14,5 +27,8 @@
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@arrows/multimethod": "^0.6.1"
   }
 }
