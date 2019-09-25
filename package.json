@@ -1,0 +1,18 @@
+{
+  "name": "redux-multimethod",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coverage": "jest --coverage && codecov"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "codecov": "^3.6.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
