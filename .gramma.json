@@ -3,7 +3,9 @@
   "api_key": "",
   "dictionary": [
     "README",
-    "linter"
+    "json",
+    "linter",
+    "typings"
   ],
   "language": "en-US",
   "rules": {

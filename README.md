@@ -1,5 +1,6 @@
 # redux-multimethod
 
+![npm](https://img.shields.io/npm/v/redux-multimethod)
 ![CircleCI](https://img.shields.io/circleci/build/github/caderek/redux-multimethod)
 ![David](https://img.shields.io/david/caderek/redux-multimethod)
 ![Codecov](https://img.shields.io/codecov/c/github/caderek/redux-multimethod)

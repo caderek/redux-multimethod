@@ -1,7 +1,7 @@
-export interface IAction {
+export type Action = {
   type: string
 }
 
-export type Reducer = (state: any, action: IAction) => any
+export type Reducer = (state: any, action: Action) => any
 
-export type Guard = (state: any, action: IAction) => boolean
+export type Guard = (state: any, action: Action) => boolean
