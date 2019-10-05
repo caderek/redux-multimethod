@@ -14,10 +14,10 @@
   dependencies:
     "@arrows/array" "^0.4.9"
 
-"@arrows/multimethod@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@arrows/multimethod/-/multimethod-0.6.1.tgz#2bb51a7da148260d5d5f74cad5d25fa45e38a35e"
-  integrity sha512-UJArXaxK9EWHPIU5+n789UPAaDyQaVOvBk0yyHfWuNOg40yctnWxUQ/QHfE0E1UyS2Xp0uKnAOgALRV+91yvCg==
+"@arrows/multimethod@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@arrows/multimethod/-/multimethod-0.7.0.tgz#82b16e57f2624ab2525f23c5ddb2d7ec57c71425"
+  integrity sha512-aZyLIiDwQwPRF68PdbCW9g55Z6vu0Mtqt1aFs0nGEXNRf8ZNHAbYq8Md7RowJ7ABbi1PQZghhKmf5yamexIGrw==
   dependencies:
     "@arrows/array" "^0.4.9"
     "@arrows/composition" "^0.2.5"
