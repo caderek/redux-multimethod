@@ -14,10 +14,10 @@
   dependencies:
     "@arrows/array" "^0.4.9"
 
-"@arrows/multimethod@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@arrows/multimethod/-/multimethod-0.7.0.tgz#82b16e57f2624ab2525f23c5ddb2d7ec57c71425"
-  integrity sha512-aZyLIiDwQwPRF68PdbCW9g55Z6vu0Mtqt1aFs0nGEXNRf8ZNHAbYq8Md7RowJ7ABbi1PQZghhKmf5yamexIGrw==
+"@arrows/multimethod@^0.8.6":
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/@arrows/multimethod/-/multimethod-0.8.6.tgz#120ab3f202e9145a10155cb15330b57b792f0fb5"
+  integrity sha512-/xFqN4aM2HAvUhEr1aB3pocZ7nAOuToUFVDTIgImUqfwAeASrQygFxGEFd9t06/TTowyjczEvVGSSlvWYs5Ntg==
   dependencies:
     "@arrows/array" "^0.4.9"
     "@arrows/composition" "^0.2.5"
@@ -3506,10 +3506,10 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
-typescript@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"
-  integrity sha512-N7bceJL1CtRQ2RiG0AQME13ksR7DiuQh/QehubYcghzv20tnh+MQnQIuJddTmsbqYj+dztchykemz0zFzlvdQw==
+typescript@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
 
 uglify-js@^3.1.4:
   version "3.6.0"
