@@ -14,4 +14,8 @@ Initial release.
 
 ## 1.0.3
 
-- Improved type definitions
+- Improved type definitions.
+
+## 1.0.4 - 1.0.7
+
+- Updated dependencies.
