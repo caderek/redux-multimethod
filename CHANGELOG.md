@@ -19,3 +19,8 @@ Initial release.
 ## 1.0.4 - 1.0.7
 
 - Updated dependencies.
+
+## 1.0.8
+
+- Updated dependencies.
+- Enabled TypeScript `strict` mode, improved typings.
