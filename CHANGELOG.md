@@ -24,3 +24,7 @@ Initial release.
 
 - Updated dependencies.
 - Enabled TypeScript `strict` mode, improved typings.
+
+## 1.0.9
+
+- Added prepublish script, rebuild project.
