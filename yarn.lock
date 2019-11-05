@@ -2,25 +2,31 @@
 # yarn lockfile v1
 
 
-"@arrows/array@^0.4.9":
-  version "0.4.9"
-  resolved "https://registry.yarnpkg.com/@arrows/array/-/array-0.4.9.tgz#20b6bf8b1314ac01801102cc809f5e24780f9a8a"
-  integrity sha512-xuDbkXMpoeRJVIgljbUFaMAGIaOrMeu8RddxmLHnM9z3YCWNkGxcoA6EvKRwxoRg0VuaMlLbC7ztZD7I2lcCfA==
-
-"@arrows/composition@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@arrows/composition/-/composition-0.2.5.tgz#246679fe2f23f144fa62452920642d46ce84392a"
-  integrity sha512-ZJ2w5HPe+yIi0gx8qUKRPMYjoEf1TM0cY0eo073D12LnUuyRBGnfcsPOhIxa2sMcszP5iLr2vi865yO1gi646Q==
+"@arrows/array@^1.0.0":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@arrows/array/-/array-1.2.1.tgz#3cb5bc7b94acd6a84c1a5442bfc53c0a51ed73b3"
+  integrity sha512-JdsApqtmfiU6KbwMeXQm0hTXYkFdYX/QPVA4vMOcZjAoZTJPWTVl9LjiuJGsRSh6L1KptH/URoQWvnpSel/6Cg==
   dependencies:
-    "@arrows/array" "^0.4.9"
+    "@arrows/composition" "^1.0.0"
 
-"@arrows/multimethod@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@arrows/multimethod/-/multimethod-1.0.0.tgz#5d956dd009cd1dd6934994898eef105b9e524305"
-  integrity sha512-pcrvjlEE/6kJewQqupz8GT0pBaoJ42fvtUh1QrCkQcLJSGQQzyf5eveuz39Bx0lOXhmh3bntWCJ5m2ZtefjEWw==
+"@arrows/composition@^1.0.0":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@arrows/composition/-/composition-1.2.1.tgz#6b386ae7a5d7f66f0d473e89a64c180b701823ce"
+  integrity sha512-dLO+ZnvbtU55eIO+m9nRMpzM8ZQuawOp1qaSNlZnjHNQlbLfetdb1kxXYI33JIliE8Sf3vSFWX+JTYvEI3TKmA==
+
+"@arrows/error@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@arrows/error/-/error-1.0.2.tgz#4e68036f901118ba6f1de88656ef6be49e650414"
+  integrity sha512-yvkiv1ay4Z3+Z6oQsUkedsQm5aFdyPpkBUQs8vejazU/RmANABx6bMMcBPPHI4aW43VPQmXFfBzr/4FExwWTEA==
+
+"@arrows/multimethod@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@arrows/multimethod/-/multimethod-1.1.6.tgz#0c95e861a5a80dffb1a11ce024db3d347562cc35"
+  integrity sha512-bhH5M/xa0mHKQe1MoVLLzpKSw10JYeiE7ADlFwOQcJyXQ40CP3QDrhIML0T6xU216ujrF4TkU5FNvoJgtfiXVw==
   dependencies:
-    "@arrows/array" "^0.4.9"
-    "@arrows/composition" "^0.2.5"
+    "@arrows/array" "^1.0.0"
+    "@arrows/composition" "^1.0.0"
+    "@arrows/error" "^1.0.2"
     fast-deep-equal "^2.0.1"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":

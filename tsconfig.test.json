@@ -6,7 +6,7 @@
     "declaration": true,
     "outDir": "./lib",
     "preserveConstEnums": true,
-    "strict": true
+    "strict": false
   },
   "include": ["src"],
   "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.temp.ts"]
